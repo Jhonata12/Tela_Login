@@ -41,7 +41,7 @@
 </figure>
 
            
-            <input type="submit" onclick="entrar()" class="btn" >
+            <input type="submit" onclick="entrar()" class="btn" id="btn" >
         </form>
     </div>
 
@@ -54,12 +54,15 @@
             var login = document.getElementById('login').value;
             var senha = document.getElementById('senha').value;
 
+            const url = 'https://jhonata12.github.io/Teste/'
 
-            if(login == "admin" && senha == "admin"){
-                alert('sucesso')
+
+            if(login == "oi" && senha == "oi"){
+                alert('Bem vindo');
+                window.open('https://jhonata12.github.io/Teste/');
                 
             } else{
-                alert('Usuario ou senha incorretos')
+                alert('Usuario ou senha incorretos');
             }
            
         }  
