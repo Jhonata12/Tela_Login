@@ -148,3 +148,16 @@ a{
   #senha{
     color:white;
   }
+
+
+  @media (min-width: 370px) and (max-width: 450px){
+    .img3{
+        width: 300px;
+        margin-left: 40px !important;
+        margin-bottom: -170px;
+        margin-top: -30px;
+    }
+    .page{
+        scale: 0.75;
+    }
+  }
