@@ -125,7 +125,8 @@ a{
     position: relative;
     margin-left: 550px;
     width: 500px;
-    
+    margin-top: -50px;
+    margin-bottom: -100px;
 }
 
 
@@ -149,6 +150,18 @@ a{
     color:white;
   }
 
+  @media (min-width: 100px) and (max-width: 369px){
+    .img3{
+        width: 300px;
+        margin-left: 50px !important;
+        margin-bottom: -170px;
+        margin-top: -30px;
+    }
+    .page{
+        scale: 0.60;
+    }
+  }
+
 
   @media (min-width: 370px) and (max-width: 450px){
     .img3{
@@ -161,3 +174,59 @@ a{
         scale: 0.75;
     }
   }
+
+
+  @media (min-width: 451px) and (max-width: 650px){
+    .img3{
+        width: 450px;
+        margin-bottom: -130px;
+        margin-top: -50px;
+        margin-left: 70px !important;
+    }
+    .page{
+        scale: 0.85;
+        margin-left: 10px !important;
+    }
+
+  }
+
+
+  @media (min-width: 651px) and (max-width: 849px){
+    .img3{
+        width: 450px;
+        margin-bottom: -130px;
+        margin-top: -50px;
+        margin-left: 250px !important;
+    }
+    .page{
+        scale: 0.90;
+    }
+
+  }
+
+  @media (min-width: 850px) and (max-width: 1060px){
+    .img3{
+        width: 450px;
+        margin-bottom: -130px;
+        margin-top: -50px;
+        margin-left: 250px !important;
+    }
+    .page{
+        scale: 1.00;
+    }
+
+  }
+
+  @media (min-width: 1060px) and (max-width: 1400px){
+    .img3{
+        width: 450px;
+        margin-bottom: -130px;
+        margin-top: -50px;
+        margin-left: 250px !important;
+    }
+    .page{
+        scale: 1.00;
+    }
+
+  }
+
